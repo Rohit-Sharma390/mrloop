@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="63" viewBox="0 0 64 100">
+  <title>Corn on the cob cursor</title>
+  <defs>
+    <clipPath id="cobClip">
+      <path d="M32 6 C41 10 46 26 46 44 C46 58 40 68 32 68 C24 68 18 58 18 44 C18 26 23 10 32 6Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- stalk -->
+  <rect x="28.5" y="86" width="7" height="12" rx="2" fill="#111" />
+
+  <!-- back husk leaf (centre) -->
+  <path d="M32 92 C24 82 24 72 32 62 C40 72 40 82 32 92Z"
+        fill="#1F7A2E" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- cob -->
+  <path d="M32 6 C41 10 46 26 46 44 C46 58 40 68 32 68 C24 68 18 58 18 44 C18 26 23 10 32 6Z"
+        fill="#FFD93B"/>
+
+  <!-- kernel grid -->
+  <g clip-path="url(#cobClip)" fill="none" stroke="#111" stroke-width="1.3" stroke-linecap="round" opacity=".6">
+    <path d="M25 6 C22 24 22 48 25 70"/>
+    <path d="M32 4 L32 70"/>
+    <path d="M39 6 C42 24 42 48 39 70"/>
+    <path d="M14 18 Q32 22 50 18"/>
+    <path d="M14 27 Q32 31 50 27"/>
+    <path d="M14 36 Q32 40 50 36"/>
+    <path d="M14 45 Q32 49 50 45"/>
+    <path d="M14 54 Q32 58 50 54"/>
+    <path d="M14 63 Q32 67 50 63"/>
+  </g>
+
+  <!-- highlight -->
+  <path d="M26 16 C22 28 22 42 25 54" fill="none" stroke="#FFF07A" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+
+  <!-- cob outline -->
+  <path d="M32 6 C41 10 46 26 46 44 C46 58 40 68 32 68 C24 68 18 58 18 44 C18 26 23 10 32 6Z"
+        fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- front husk leaves -->
+  <path d="M32 90 C15 84 8 62 13 38 C17 52 24 62 32 70Z"
+        fill="#2E9E3F" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M32 90 C49 84 56 62 51 38 C47 52 40 62 32 70Z"
+        fill="#2E9E3F" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- leaf veins -->
+  <path d="M30 84 C22 76 17 64 16 50" fill="none" stroke="#1F7A2E" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M34 84 C42 76 47 64 48 50" fill="none" stroke="#1F7A2E" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

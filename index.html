@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MrLoop | Loop churros</title>
+<meta name="description" content="MrLoop: loop churros. Good things come full circle.">
+<meta name="theme-color" content="#00C9C7">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#menu">Skip to menu</a>
+
+<header class="nav" id="nav">
+  <!-- PLACEHOLDER: swap for logo image when available -->
+  <a class="wordmark" href="#home" aria-label="MrLoop home"><img src="assets/images/logo.png" alt="MrLoop" style="width: 225px; height: auto;"></a>
+  <button class="nav__toggle" aria-expanded="false" aria-controls="navlinks"><span class="sr">Menu</span><i></i><i></i></button>
+  <nav class="nav__links" id="navlinks" aria-label="Main">
+    <a href="#home">Home</a><a href="#menu">Menu</a><a href="#combos">Combos</a><a href="#sundaes">Sundaes</a><a href="#about">About</a><a href="#location">Location</a><a href="#contact">Contact</a>
+    <a href="#" data-placeholder data-instagram>Instagram</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home" data-scroll="track" data-nav="light">
+  <div class="hero__stage" id="heroStage">
+    <h1 class="display hero__title" style="z-index:-1 ;">
+       <span style="--i:0">Handcrafted</span> <span><span class="script" style="--i:4;;">Happiness.</span>
+    </h1>
+    <p class="display hero__name" id="heroName" aria-hidden="true"></p>
+    <div class="hero__ring" id="ring"></div>
+    <p class="hero__sub">Meet your new favourite sweet obsession.</p>
+    <a class="btn hero__cta" href="#menu">Explore the menu</a>
+    <span class="cue" aria-hidden="true">Scroll</span>
+  </div>
+</section>
+
+<section class="menu" id="menu" data-nav="light">
+  <h2 class="display reveal">The <span class="script">menu</span></h2>
+  <ul class="menu__list" id="flavourList"></ul>
+</section>
+
+<section class="combos" id="combos" data-nav="light">
+  <h2 class="display reveal">Churros + <span class="script">soft-serve</span></h2>
+  <ul class="combo__list" id="comboList"></ul><br>
+  <h2 class="display reveal">Upgrade Only <span class="script">+ $4.49</span></h2>
+
+</section>
+
+
+<section id="sundaes" class="sundae-section" data-scroll="track">
+  <div class="sundae-stage" id="sundaeStage">
+    <h2 class="sundae-title display">
+      <span>Sweet Sundaes</span>
+      <span class="script">sweet moments</span>
+    </h2>
+
+    <div class="sundae-ring" id="sundaeRing"></div>
+
+    <div class="sundae-info">
+  <h2 class="sundae-name display" id="sundaeName"></h2>
+  <p class="sundae-price script" id="sundaePrice"></p>
+</div>
+  </div>
+</section>
+
+<section id="corn" class="corn-section" data-scroll="track" data-nav="light">
+  <div class="corn-stage" id="cornStage">
+    <h2 class="corn-title display">
+      <span>Corn on the </span>
+      <span class="script">Cob</span>
+    </h2>
+    <div class="corn-halo" id="cornHalo" aria-hidden="true"></div>
+    <div class="corn-row" id="cornRow"></div>
+  </div>
+</section>
+
+<section class="about" id="about" data-nav="dark">
+  <h2 class="display reveal">Not your ordinary <span class="script">sweet</span> treat.</h2>
+  <div class="marquee" aria-hidden="true"><div><span>Loop churros</span><b></b><span>Loop churros</span><b></b><span>Loop churros</span><b></b><span>Loop churros</span><b></b><span>Loop churros</span><b></b><span>Loop churros</span><b></b></div></div>
+</section>
+
+<section class="statement" id="statement" data-scroll="view" data-nav="light" aria-label="One loop, endless cravings">
+  <p class="display statement__a">One loop.</p>
+  <p class="display statement__b">Endless <span class="script">cravings.</span></p>
+</section>
+
+<section class="location" id="location" data-nav="light">
+  <h2 class="display reveal" style="display:inline-block; vertical-align:middle; margin-right:10px;">Find</h2>
+<img src="assets/images/logo2.png" alt="MrLoop Logo" height="110" style="display:inline-block; vertical-align:middle;">
+  <div class="info">
+    <div><h3>Address</h3><address>4955 Clifton Hill<br>Niagara Falls, ON L2G3N5</address></div>
+    <div><h3>Hours</h3><p>Mon–Thurs: 3pm - 11pm<br>Fri–Sun: 3pm - 12am</p></div>
+    <div id="contact"><h3>Contact</h3><p><a href="tel:+19059783150" data-placeholder>+1 905-978-3150</a><br><a href="mailto:info@churronut.com" data-placeholder>info@churronut.com</a></p></div>
+  </div>
+  <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=4955+Clifton+Hill,+Niagara+Falls,+ON+L2G+3N5" target="_blank" rel="noopener">Get directions</a>
+</section>
+
+<section class="social" id="social" data-nav="light">
+  <div class="social-half">
+  <h2 class="display reveal" style="display:inline-block; vertical-align:middle; margin-right:10px;">Follow</h2>
+<img src="assets/images/logo2.png" alt="MrLoop Logo" height="110" style="display:inline-block; vertical-align:middle;">
+  
+  <div class="grid">
+    <a href="https://www.instagram.com/mrloop.ca/" target="_blank" rel="noopener noreferrer"><img data-ph="social|social-1.jpg|1" src="assets/images/insta.png" alt="MrLoop on Instagram" loading="lazy" style="background: transparent; object-fit: contain; height:7rem;"></a>
+  </div>
+  </div>
+  <div class="franchise-half">
+    <h2 class="display reveal">
+      Now <span class="script">Franchising.</span>
+    </h2>
+
+    <p>
+      Love the MrLoop experience? Bring the loop to your city.
+      Become part of the MrLoop family.
+    </p>
+
+    <a class="btn" href="mailto:info@churronut.com?subject=MrLoop%20Franchise%20Enquiry">
+      Become a Franchise Partner
+    </a>
+  </div>
+</section>
+</main>
+
+<footer class="footer" data-nav="dark">
+  <a class="wordmark" href="#home" aria-label="MrLoop home"><img src="assets/images/logo.png" alt="MrLoop" style="width: 100px; height: auto;"></a>
+  <nav aria-label="Footer"><a href="#menu">Menu</a><a href="#combos">Combos</a><a href="#about">About</a><a href="#location">Location</a><a href="#contact">Contact</a><a href="#" data-placeholder data-instagram>Instagram</a></nav>
+  <p>© <span id="yr">2026</span> MrLoop</p>
+</footer>
+<script src="js/content.js"></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
